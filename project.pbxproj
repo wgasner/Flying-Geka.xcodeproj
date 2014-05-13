@@ -1,0 +1,527 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		682116801916B51E00158103 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6821167F1916B51E00158103 /* Foundation.framework */; };
+		682116821916B51E00158103 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 682116811916B51E00158103 /* CoreGraphics.framework */; };
+		682116841916B51E00158103 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 682116831916B51E00158103 /* UIKit.framework */; };
+		6821168A1916B51E00158103 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 682116881916B51E00158103 /* InfoPlist.strings */; };
+		6821168C1916B51E00158103 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 6821168B1916B51E00158103 /* main.m */; };
+		682116901916B51E00158103 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 6821168F1916B51E00158103 /* AppDelegate.m */; };
+		682116931916B51E00158103 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 682116911916B51E00158103 /* Main.storyboard */; };
+		682116961916B51E00158103 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 682116951916B51E00158103 /* ViewController.m */; };
+		682116981916B51E00158103 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 682116971916B51E00158103 /* Images.xcassets */; };
+		6821169F1916B51E00158103 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6821169E1916B51E00158103 /* XCTest.framework */; };
+		682116A01916B51E00158103 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6821167F1916B51E00158103 /* Foundation.framework */; };
+		682116A11916B51E00158103 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 682116831916B51E00158103 /* UIKit.framework */; };
+		682116A91916B51E00158103 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 682116A71916B51E00158103 /* InfoPlist.strings */; };
+		682116AB1916B51E00158103 /* Flying_GekaTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 682116AA1916B51E00158103 /* Flying_GekaTests.m */; };
+		682116B61916B56100158103 /* GekaViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 682116B51916B56100158103 /* GekaViewController.m */; };
+		68C14F4F19180965008DC850 /* 1237918_734536966590535_519412316_n.png in Resources */ = {isa = PBXBuildFile; fileRef = 68C14F4419180965008DC850 /* 1237918_734536966590535_519412316_n.png */; };
+		68C14F5019180965008DC850 /* 1779354_734536936590538_1532111975_n.png in Resources */ = {isa = PBXBuildFile; fileRef = 68C14F4519180965008DC850 /* 1779354_734536936590538_1532111975_n.png */; };
+		68C14F5119180965008DC850 /* 1781894_734536933257205_1400577027_n.png in Resources */ = {isa = PBXBuildFile; fileRef = 68C14F4619180965008DC850 /* 1781894_734536933257205_1400577027_n.png */; };
+		68C14F5219180965008DC850 /* 1962688_734536969923868_528201331_n.png in Resources */ = {isa = PBXBuildFile; fileRef = 68C14F4719180965008DC850 /* 1962688_734536969923868_528201331_n.png */; };
+		68C14F5319180965008DC850 /* 10014578_734536943257204_1183876352_n.png in Resources */ = {isa = PBXBuildFile; fileRef = 68C14F4819180965008DC850 /* 10014578_734536943257204_1183876352_n.png */; };
+		68C14F5419180965008DC850 /* backgroundgeka.png in Resources */ = {isa = PBXBuildFile; fileRef = 68C14F4919180965008DC850 /* backgroundgeka.png */; };
+		68C14F5519180965008DC850 /* geka1.png in Resources */ = {isa = PBXBuildFile; fileRef = 68C14F4A19180965008DC850 /* geka1.png */; };
+		68C14F5619180965008DC850 /* geka2.png in Resources */ = {isa = PBXBuildFile; fileRef = 68C14F4B19180965008DC850 /* geka2.png */; };
+		68C14F5719180965008DC850 /* gekaaaaa copy.png in Resources */ = {isa = PBXBuildFile; fileRef = 68C14F4C19180965008DC850 /* gekaaaaa copy.png */; };
+		68C14F5819180965008DC850 /* gekaaaaa.png in Resources */ = {isa = PBXBuildFile; fileRef = 68C14F4D19180965008DC850 /* gekaaaaa.png */; };
+		68C14F5919180965008DC850 /* ulvjkjv,vhm.png in Resources */ = {isa = PBXBuildFile; fileRef = 68C14F4E19180965008DC850 /* ulvjkjv,vhm.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		682116A21916B51E00158103 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 682116741916B51C00158103 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6821167B1916B51E00158103;
+			remoteInfo = "Flying Geka";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		6821167C1916B51E00158103 /* Flying Geka.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Flying Geka.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6821167F1916B51E00158103 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		682116811916B51E00158103 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		682116831916B51E00158103 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		682116871916B51E00158103 /* Flying Geka-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Flying Geka-Info.plist"; sourceTree = "<group>"; };
+		682116891916B51E00158103 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		6821168B1916B51E00158103 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		6821168D1916B51E00158103 /* Flying Geka-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Flying Geka-Prefix.pch"; sourceTree = "<group>"; };
+		6821168E1916B51E00158103 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		6821168F1916B51E00158103 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		682116921916B51E00158103 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		682116941916B51E00158103 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		682116951916B51E00158103 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		682116971916B51E00158103 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		6821169D1916B51E00158103 /* Flying GekaTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Flying GekaTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6821169E1916B51E00158103 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		682116A61916B51E00158103 /* Flying GekaTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Flying GekaTests-Info.plist"; sourceTree = "<group>"; };
+		682116A81916B51E00158103 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		682116AA1916B51E00158103 /* Flying_GekaTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Flying_GekaTests.m; sourceTree = "<group>"; };
+		682116B41916B56100158103 /* GekaViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GekaViewController.h; sourceTree = "<group>"; };
+		682116B51916B56100158103 /* GekaViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GekaViewController.m; sourceTree = "<group>"; };
+		68C14F4419180965008DC850 /* 1237918_734536966590535_519412316_n.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = 1237918_734536966590535_519412316_n.png; path = "flappygeka iphone app development/1237918_734536966590535_519412316_n.png"; sourceTree = SOURCE_ROOT; };
+		68C14F4519180965008DC850 /* 1779354_734536936590538_1532111975_n.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = 1779354_734536936590538_1532111975_n.png; path = "flappygeka iphone app development/1779354_734536936590538_1532111975_n.png"; sourceTree = SOURCE_ROOT; };
+		68C14F4619180965008DC850 /* 1781894_734536933257205_1400577027_n.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = 1781894_734536933257205_1400577027_n.png; path = "flappygeka iphone app development/1781894_734536933257205_1400577027_n.png"; sourceTree = SOURCE_ROOT; };
+		68C14F4719180965008DC850 /* 1962688_734536969923868_528201331_n.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = 1962688_734536969923868_528201331_n.png; path = "flappygeka iphone app development/1962688_734536969923868_528201331_n.png"; sourceTree = SOURCE_ROOT; };
+		68C14F4819180965008DC850 /* 10014578_734536943257204_1183876352_n.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = 10014578_734536943257204_1183876352_n.png; path = "flappygeka iphone app development/10014578_734536943257204_1183876352_n.png"; sourceTree = SOURCE_ROOT; };
+		68C14F4919180965008DC850 /* backgroundgeka.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = backgroundgeka.png; path = "flappygeka iphone app development/backgroundgeka.png"; sourceTree = SOURCE_ROOT; };
+		68C14F4A19180965008DC850 /* geka1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = geka1.png; path = "flappygeka iphone app development/geka1.png"; sourceTree = SOURCE_ROOT; };
+		68C14F4B19180965008DC850 /* geka2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = geka2.png; path = "flappygeka iphone app development/geka2.png"; sourceTree = SOURCE_ROOT; };
+		68C14F4C19180965008DC850 /* gekaaaaa copy.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "gekaaaaa copy.png"; path = "flappygeka iphone app development/gekaaaaa copy.png"; sourceTree = SOURCE_ROOT; };
+		68C14F4D19180965008DC850 /* gekaaaaa.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = gekaaaaa.png; path = "flappygeka iphone app development/gekaaaaa.png"; sourceTree = SOURCE_ROOT; };
+		68C14F4E19180965008DC850 /* ulvjkjv,vhm.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "ulvjkjv,vhm.png"; path = "flappygeka iphone app development/ulvjkjv,vhm.png"; sourceTree = SOURCE_ROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		682116791916B51E00158103 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				682116821916B51E00158103 /* CoreGraphics.framework in Frameworks */,
+				682116841916B51E00158103 /* UIKit.framework in Frameworks */,
+				682116801916B51E00158103 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6821169A1916B51E00158103 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6821169F1916B51E00158103 /* XCTest.framework in Frameworks */,
+				682116A11916B51E00158103 /* UIKit.framework in Frameworks */,
+				682116A01916B51E00158103 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		682116731916B51C00158103 = {
+			isa = PBXGroup;
+			children = (
+				682116851916B51E00158103 /* Flying Geka */,
+				682116A41916B51E00158103 /* Flying GekaTests */,
+				6821167E1916B51E00158103 /* Frameworks */,
+				6821167D1916B51E00158103 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		6821167D1916B51E00158103 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6821167C1916B51E00158103 /* Flying Geka.app */,
+				6821169D1916B51E00158103 /* Flying GekaTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6821167E1916B51E00158103 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				6821167F1916B51E00158103 /* Foundation.framework */,
+				682116811916B51E00158103 /* CoreGraphics.framework */,
+				682116831916B51E00158103 /* UIKit.framework */,
+				6821169E1916B51E00158103 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		682116851916B51E00158103 /* Flying Geka */ = {
+			isa = PBXGroup;
+			children = (
+				6821168E1916B51E00158103 /* AppDelegate.h */,
+				6821168F1916B51E00158103 /* AppDelegate.m */,
+				682116911916B51E00158103 /* Main.storyboard */,
+				682116941916B51E00158103 /* ViewController.h */,
+				682116B41916B56100158103 /* GekaViewController.h */,
+				682116B51916B56100158103 /* GekaViewController.m */,
+				682116951916B51E00158103 /* ViewController.m */,
+				682116971916B51E00158103 /* Images.xcassets */,
+				68C14F4419180965008DC850 /* 1237918_734536966590535_519412316_n.png */,
+				68C14F4519180965008DC850 /* 1779354_734536936590538_1532111975_n.png */,
+				68C14F4619180965008DC850 /* 1781894_734536933257205_1400577027_n.png */,
+				68C14F4719180965008DC850 /* 1962688_734536969923868_528201331_n.png */,
+				68C14F4819180965008DC850 /* 10014578_734536943257204_1183876352_n.png */,
+				68C14F4919180965008DC850 /* backgroundgeka.png */,
+				68C14F4A19180965008DC850 /* geka1.png */,
+				68C14F4B19180965008DC850 /* geka2.png */,
+				68C14F4C19180965008DC850 /* gekaaaaa copy.png */,
+				68C14F4D19180965008DC850 /* gekaaaaa.png */,
+				68C14F4E19180965008DC850 /* ulvjkjv,vhm.png */,
+				682116861916B51E00158103 /* Supporting Files */,
+			);
+			path = "Flying Geka";
+			sourceTree = "<group>";
+		};
+		682116861916B51E00158103 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				682116871916B51E00158103 /* Flying Geka-Info.plist */,
+				682116881916B51E00158103 /* InfoPlist.strings */,
+				6821168B1916B51E00158103 /* main.m */,
+				6821168D1916B51E00158103 /* Flying Geka-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		682116A41916B51E00158103 /* Flying GekaTests */ = {
+			isa = PBXGroup;
+			children = (
+				682116AA1916B51E00158103 /* Flying_GekaTests.m */,
+				682116A51916B51E00158103 /* Supporting Files */,
+			);
+			path = "Flying GekaTests";
+			sourceTree = "<group>";
+		};
+		682116A51916B51E00158103 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				682116A61916B51E00158103 /* Flying GekaTests-Info.plist */,
+				682116A71916B51E00158103 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		6821167B1916B51E00158103 /* Flying Geka */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 682116AE1916B51E00158103 /* Build configuration list for PBXNativeTarget "Flying Geka" */;
+			buildPhases = (
+				682116781916B51E00158103 /* Sources */,
+				682116791916B51E00158103 /* Frameworks */,
+				6821167A1916B51E00158103 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Flying Geka";
+			productName = "Flying Geka";
+			productReference = 6821167C1916B51E00158103 /* Flying Geka.app */;
+			productType = "com.apple.product-type.application";
+		};
+		6821169C1916B51E00158103 /* Flying GekaTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 682116B11916B51E00158103 /* Build configuration list for PBXNativeTarget "Flying GekaTests" */;
+			buildPhases = (
+				682116991916B51E00158103 /* Sources */,
+				6821169A1916B51E00158103 /* Frameworks */,
+				6821169B1916B51E00158103 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				682116A31916B51E00158103 /* PBXTargetDependency */,
+			);
+			name = "Flying GekaTests";
+			productName = "Flying GekaTests";
+			productReference = 6821169D1916B51E00158103 /* Flying GekaTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		682116741916B51C00158103 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0500;
+				ORGANIZATIONNAME = Geka;
+				TargetAttributes = {
+					6821169C1916B51E00158103 = {
+						TestTargetID = 6821167B1916B51E00158103;
+					};
+				};
+			};
+			buildConfigurationList = 682116771916B51D00158103 /* Build configuration list for PBXProject "Flying Geka" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 682116731916B51C00158103;
+			productRefGroup = 6821167D1916B51E00158103 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6821167B1916B51E00158103 /* Flying Geka */,
+				6821169C1916B51E00158103 /* Flying GekaTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6821167A1916B51E00158103 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				68C14F4F19180965008DC850 /* 1237918_734536966590535_519412316_n.png in Resources */,
+				68C14F5919180965008DC850 /* ulvjkjv,vhm.png in Resources */,
+				68C14F5019180965008DC850 /* 1779354_734536936590538_1532111975_n.png in Resources */,
+				68C14F5419180965008DC850 /* backgroundgeka.png in Resources */,
+				68C14F5719180965008DC850 /* gekaaaaa copy.png in Resources */,
+				68C14F5819180965008DC850 /* gekaaaaa.png in Resources */,
+				682116981916B51E00158103 /* Images.xcassets in Resources */,
+				68C14F5519180965008DC850 /* geka1.png in Resources */,
+				68C14F5619180965008DC850 /* geka2.png in Resources */,
+				68C14F5319180965008DC850 /* 10014578_734536943257204_1183876352_n.png in Resources */,
+				68C14F5119180965008DC850 /* 1781894_734536933257205_1400577027_n.png in Resources */,
+				68C14F5219180965008DC850 /* 1962688_734536969923868_528201331_n.png in Resources */,
+				6821168A1916B51E00158103 /* InfoPlist.strings in Resources */,
+				682116931916B51E00158103 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6821169B1916B51E00158103 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				682116A91916B51E00158103 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		682116781916B51E00158103 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				682116961916B51E00158103 /* ViewController.m in Sources */,
+				682116901916B51E00158103 /* AppDelegate.m in Sources */,
+				682116B61916B56100158103 /* GekaViewController.m in Sources */,
+				6821168C1916B51E00158103 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		682116991916B51E00158103 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				682116AB1916B51E00158103 /* Flying_GekaTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		682116A31916B51E00158103 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6821167B1916B51E00158103 /* Flying Geka */;
+			targetProxy = 682116A21916B51E00158103 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		682116881916B51E00158103 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				682116891916B51E00158103 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		682116911916B51E00158103 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				682116921916B51E00158103 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		682116A71916B51E00158103 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				682116A81916B51E00158103 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		682116AC1916B51E00158103 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		682116AD1916B51E00158103 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		682116AF1916B51E00158103 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Flying Geka/Flying Geka-Prefix.pch";
+				INFOPLIST_FILE = "Flying Geka/Flying Geka-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		682116B01916B51E00158103 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Flying Geka/Flying Geka-Prefix.pch";
+				INFOPLIST_FILE = "Flying Geka/Flying Geka-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		682116B21916B51E00158103 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Flying Geka.app/Flying Geka";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Flying Geka/Flying Geka-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Flying GekaTests/Flying GekaTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		682116B31916B51E00158103 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Flying Geka.app/Flying Geka";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Flying Geka/Flying Geka-Prefix.pch";
+				INFOPLIST_FILE = "Flying GekaTests/Flying GekaTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		682116771916B51D00158103 /* Build configuration list for PBXProject "Flying Geka" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				682116AC1916B51E00158103 /* Debug */,
+				682116AD1916B51E00158103 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		682116AE1916B51E00158103 /* Build configuration list for PBXNativeTarget "Flying Geka" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				682116AF1916B51E00158103 /* Debug */,
+				682116B01916B51E00158103 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		682116B11916B51E00158103 /* Build configuration list for PBXNativeTarget "Flying GekaTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				682116B21916B51E00158103 /* Debug */,
+				682116B31916B51E00158103 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 682116741916B51C00158103 /* Project object */;
+}
